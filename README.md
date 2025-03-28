@@ -18,33 +18,33 @@ To use this application, you need:
 1. Login to [Microsoft Entra](https://entra.microsoft.com).
 2. Navigate to **Identity** → **Applications** → **App registrations**.
 
-   <img width="600" alt="App Registrations" src="https://github.com/user-attachments/assets/468804f8-9162-42a4-a4d0-ae1248ce8b24" />
+   <img width="600" alt="App Registrations" src="https://github.com/user-attachments/assets/a4e9c28c-ebad-4d12-a48e-de5069776a78" />
 
 4. Click on **New Registration** and fill out the form as shown below:
 
-   <img width="600" alt="New Registrations" src="https://github.com/user-attachments/assets/e880193a-f647-4c81-b35a-46ace21f29ef" />
+   <img width="600" alt="New Registrations" src="https://github.com/user-attachments/assets/2389c601-20ac-4d0f-ab17-2372b1ff6780" />
 
 6. Copy the **Application (client) ID** and **Directory (tenant) ID**:
 
-   <img width="600" alt="IDs" src="https://github.com/user-attachments/assets/80250de6-db8c-4f8d-8546-ff22cc87a1bb" />
+   <img width="600" alt="IDs" src="https://github.com/user-attachments/assets/1e63ba98-6833-4d6f-916e-41bd84e18e9b" />
 
 ## 🔑 Create a Fortigate Token
 You need to have a network or SSID where portal access is configured.
 1. Login to Fortigate Firewall
 2. Go to "System" --> "Admin Prifiles"
 
-<img width="600" alt="Fortigate Admin Profile" src="https://github.com/user-attachments/assets/899f32cc-c871-47bf-9e29-07944595e6c8" />
+<img width="600" alt="Fortigate Admin Profile" src="https://github.com/user-attachments/assets/4d1df40a-4ec7-4caa-bbb0-4264bce5214b" />
 
 4. Click on "Create New"
 5. Compile an information like a photo and Click Save
 
-<img width="600" alt="Fortigate Create Profile" src="https://github.com/user-attachments/assets/7784615d-beb0-4322-87fa-b7431093012a" />
+<img width="600" alt="Fortigate Create Profile" src="https://github.com/user-attachments/assets/74ec709a-2e6c-4fcb-a63e-905951d3ab5a" />
 
 6. Go to "System" --> "Administrators" and click on "Create New" --> "REST API Admin" --> Compile a form and select the previously created profile
 
-<img width="600" alt="Fortigate Rest API Gen" src="https://github.com/user-attachments/assets/2d8f4914-f2dd-41eb-8d7c-cab0f247d672" />
+<img width="600" alt="Fortigate Rest API Gen" src="[https://github.com/user-attachments/assets/2d8f4914-f2dd-41eb-8d7c-cab0f247d672](https://github.com/user-attachments/assets/03d44079-37e1-41e5-b585-75a163986842)" />
 
-<img width="600" alt="Fortigate New Rest API" src="https://github.com/user-attachments/assets/e2638021-b67d-42f4-8db5-aed04a976ddf" />
+<img width="600" alt="Fortigate New Rest API" src="https://github.com/user-attachments/assets/a8a2f050-a79a-45d7-9a37-51400e8dd280" />
 
 7. After save show the API key
 
