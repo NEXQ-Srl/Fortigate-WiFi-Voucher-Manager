@@ -154,9 +154,9 @@ You need to have a network or SSID where portal access is configured.
 
 ## Images
 
-<img width="600" alt="Login" src="https://github.com/user-attachments/assets/a1c8eff9-e0b9-4d0c-aa12-4fe01f50509f" />
-<img width="600" alt="Voucher Generator" src="https://github.com/user-attachments/assets/10a3d88f-c6e0-4a89-83a8-4890bf729f87" />
-<img width="600" alt="Voucher List" src="https://github.com/user-attachments/assets/d25dd473-3ade-4201-b76c-49d985a3ffa5" />
+<img width="600" alt="Login" src="https://github.com/user-attachments/assets/f806c6bb-806d-4a9d-b278-d7debe599da7" />
+<img width="600" alt="Voucher Generator" src="https://github.com/user-attachments/assets/28ac88c7-64fd-463a-b779-de376b420f93" />
+<img width="600" alt="Voucher List" src="https://github.com/user-attachments/assets/36b1d1a3-af1c-476c-9c5e-8c9b3f8551c5" />
 
 ## Feedback
 <p>Powered by <a href="http://www.nexq.it">NEXQ S.r.l.</a></p>
