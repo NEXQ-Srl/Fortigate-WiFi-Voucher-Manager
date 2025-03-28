@@ -129,15 +129,38 @@ You need to have a network or SSID where portal access is configured.
      }
    ]
    ```
-3. Create an image:
+3. Download from Git:
    ```sh
-   docker build -t [ImageName] .
+   git clone https://github.com/NEXQ-Srl/Fortigate-WiFi-Voucher-Manager.git
    ```
-4. Start container:
+4. Go to The folder with "dockerfile" and create an image:
    ```sh
-   docker run -p [ExposePort]:5173 --name [ContainerName] [ImageName]
+   docker build -t fortigate-wifi-voucher-manager .
+   ``` 
+5. Run the container
+   ```sh
+   docker run -d \
+   --name fortigate-voucher-manager \
+   -p 8081:5173 \
+   -p 3060:3000 \
+   -e SMTP_MAIL="DoNotReply@domain.it" \
+   -e SMTP_HOST="smtp.domain.net" \
+   -e SMTP_PORT=587 \
+   -e SMTP_SECURE=false \
+   -e SMTP_USER=username \
+   -e SMTP_PASSWORD=password \
+   -e VITE_CLIENT_ID="EntraClientID" \
+   -e VITE_TENANT_ID="EntraTenantID" \
+   -e VITE_API_PREFIX="FG" \
+   -e VITE_PHONE_COUNTRY="IT" \
+   -e VITE_NAME="Voucher Manager" \
+   -e VITE_LOGO_URL="https://www.nexq.it/wp-content/uploads/2024/07/logo-colorato.svg" \
+   -e VITE_FIREWALL_CONFIG='[{"FIREWALL": "FirewallName","API_HOST": "https://firewall1","API_URL": "/api/v2/cmdb/user/group/Guests%20Portale/guest?vdom=root","API_TOKEN": "token","WIFI_SSID": "Guest"}]' \
+   fortigate-wifi-voucher-manager
    ```
-5. Go to **Web Browser** and click **Login**
+6. Go to **Web Browser** and click **Login**
+
+💡 Note: Remeber to change the variable in docker run!
 
 ## Images
 <img width="600" alt="Login" src="https://github.com/user-attachments/assets/cae837a6-0054-48f4-8256-52fc580d6cfd" />
