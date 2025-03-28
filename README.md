@@ -3,16 +3,6 @@
 Generate and view the Voucher for Fortigate Firewall.
 Generally used for the Guest Network
 
-## 📋 Index
-- [Prerequisites](#prerequisites)
-- [How it Works](#how-it-works)
-- [Create an Application on Entra](#create-an-application-on-entra)
-- [Create a Fortigate Token](#create-a-fortigate-token)
-- [Installation](#installation)
-- [Images](#images)
-- [Feedback](#feedback)
-- [License](#license)
-
 ## ✅ Prerequisites
 To use this application, you need:
 - A **Fortigate Firewall**
@@ -28,37 +18,37 @@ To use this application, you need:
 1. Login to [Microsoft Entra](https://entra.microsoft.com).
 2. Navigate to **Identity** → **Applications** → **App registrations**.
 
-   <img width="600" alt="App Registrations" src="https://github.com/user-attachments/assets/c42c903e-c200-4ff6-95de-3f71a7d6666b" />
+   <img width="600" alt="App Registrations" src="https://github.com/user-attachments/assets/468804f8-9162-42a4-a4d0-ae1248ce8b24" />
 
 4. Click on **New Registration** and fill out the form as shown below:
 
-   <img width="600" alt="New Registrations" src="https://github.com/user-attachments/assets/1233c36b-64ba-4f13-a1cc-2ceab27ab22e" />
+   <img width="600" alt="New Registrations" src="https://github.com/user-attachments/assets/e880193a-f647-4c81-b35a-46ace21f29ef" />
 
 6. Copy the **Application (client) ID** and **Directory (tenant) ID**:
 
-   <img width="600" alt="IDs" src="https://github.com/user-attachments/assets/53106aec-5f45-4b69-be46-dc9152e72563" />
+   <img width="600" alt="IDs" src="https://github.com/user-attachments/assets/80250de6-db8c-4f8d-8546-ff22cc87a1bb" />
 
 ## 🔑 Create a Fortigate Token
 You need to have a network or SSID where portal access is configured.
 1. Login to Fortigate Firewall
 2. Go to "System" --> "Admin Prifiles"
-   
-<img width="600" alt="Fortigate Admin Profile" src="https://github.com/user-attachments/assets/c35fa2e0-d7bc-4174-ac97-7cd82d4984b3" />
+
+<img width="600" alt="Fortigate Admin Profile" src="https://github.com/user-attachments/assets/899f32cc-c871-47bf-9e29-07944595e6c8" />
 
 4. Click on "Create New"
 5. Compile an information like a photo and Click Save
 
-<img width="600" alt="Fortigate Create Profile" src="https://github.com/user-attachments/assets/e162b03b-e9a3-496e-9609-b632da888cad" />
+<img width="600" alt="Fortigate Create Profile" src="https://github.com/user-attachments/assets/7784615d-beb0-4322-87fa-b7431093012a" />
 
 6. Go to "System" --> "Administrators" and click on "Create New" --> "REST API Admin" --> Compile a form and select the previously created profile
 
-<img width="600" alt="Fortigate Rest API Gen" src="https://github.com/user-attachments/assets/b62bf4ab-97c9-4ed7-93f4-fa4c8ed758be" />
+<img width="600" alt="Fortigate Rest API Gen" src="https://github.com/user-attachments/assets/2d8f4914-f2dd-41eb-8d7c-cab0f247d672" />
 
-<img width="600" alt="Fortigate New Rest API" src="https://github.com/user-attachments/assets/26348152-1784-46a6-9cd8-1ec62db2dadd" />
+<img width="600" alt="Fortigate New Rest API" src="https://github.com/user-attachments/assets/e2638021-b67d-42f4-8db5-aed04a976ddf" />
 
 7. After save show the API key
 
-<img width="600" alt="Fortigate API key" src="https://github.com/user-attachments/assets/92e21c1c-4990-4c72-bf5e-c2623ad8cf48" />
+<img width="600" alt="Fortigate API key" src="https://github.com/user-attachments/assets/8ebb516f-adb2-4859-b4e2-0621d858e514" />
 
 ## 🚀 Installation
 1. **Download the code** from GitHub and edit the following environment variables in the `Dockerfile`:
@@ -163,17 +153,17 @@ You need to have a network or SSID where portal access is configured.
 💡 Note: Remeber to change the variable in docker run!
 
 ## Images
-<img width="600" alt="Login" src="https://github.com/user-attachments/assets/cae837a6-0054-48f4-8256-52fc580d6cfd" />
-<img width="600" alt="Voucher Generator" src="https://github.com/user-attachments/assets/cac4b52b-e484-4b6f-a8b3-6dba6b799a51" />
-<img width="600" alt="Voucher List" src="https://github.com/user-attachments/assets/ef9ea37d-ab59-49bb-87c1-b82feaf8f26a" />
 
+<img width="600" alt="Login" src="https://github.com/user-attachments/assets/a1c8eff9-e0b9-4d0c-aa12-4fe01f50509f" />
+<img width="600" alt="Voucher Generator" src="https://github.com/user-attachments/assets/10a3d88f-c6e0-4a89-83a8-4890bf729f87" />
+<img width="600" alt="Voucher List" src="https://github.com/user-attachments/assets/d25dd473-3ade-4201-b76c-49d985a3ffa5" />
 
 ## Feedback
 <p>Powered by <a href="http://www.nexq.it">NEXQ S.r.l.</a></p>
 <p>Mail <a href="mailto:developer@nexq.it">developer@nexq.it</a> for more info.</p>
 <p>Mail <a href="mailto:into@nexq.it">into@nexq.it</a> for custom implementation.</p>
 
-<a href=https://www.linkedin.com/company/nexq><img style="margin: 0 10;" width="35" src="https://github.com/user-attachments/assets/571fbd1e-4c60-4ebd-985c-7aab446a23d6"></a>
+<a href=https://www.linkedin.com/company/nexq><img style="margin: 0 10;" width="35" src="https://github.com/user-attachments/assets/4ac6709e-d29d-4f68-83e0-4b819d645734"></a>
 
 ## License
 <p>Copyright (c) 2025 NEXQ S.r.l.</p>
