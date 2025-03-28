@@ -38,17 +38,17 @@ You need to have a network or SSID where portal access is configured.
 4. Click on "Create New"
 5. Compile an information like a photo and Click Save
 
-<img width="600" alt="Fortigate Create Profile" src="https://github.com/user-attachments/assets/74ec709a-2e6c-4fcb-a63e-905951d3ab5a" />
+<img width="600" alt="Fortigate Create Profile" src="[https://github.com/user-attachments/assets/74ec709a-2e6c-4fcb-a63e-905951d3ab5a](https://github.com/user-attachments/assets/07d1a149-8c07-4fba-acba-2815164b3c03)" />
 
 6. Go to "System" --> "Administrators" and click on "Create New" --> "REST API Admin" --> Compile a form and select the previously created profile
 
-<img width="600" alt="Fortigate Rest API Gen" src="[https://github.com/user-attachments/assets/2d8f4914-f2dd-41eb-8d7c-cab0f247d672](https://github.com/user-attachments/assets/03d44079-37e1-41e5-b585-75a163986842)" />
+<img width="600" alt="Fortigate Rest API Gen" src="https://github.com/user-attachments/assets/9627b8dd-09c7-4bb9-8137-cc35497d72da" />
 
-<img width="600" alt="Fortigate New Rest API" src="https://github.com/user-attachments/assets/a8a2f050-a79a-45d7-9a37-51400e8dd280" />
+<img width="600" alt="Fortigate New Rest API" src="https://github.com/user-attachments/assets/e87c9360-2507-420d-b96f-41085e1bf7d2" />
 
 7. After save show the API key
 
-<img width="600" alt="Fortigate API key" src="https://github.com/user-attachments/assets/8ebb516f-adb2-4859-b4e2-0621d858e514" />
+<img width="600" alt="Fortigate API key" src="https://github.com/user-attachments/assets/0927d209-2221-4d0e-8679-48d2ae8b99cf" />
 
 ## 🚀 Installation
 1. **Download the code** from GitHub and edit the following environment variables in the `Dockerfile`:
@@ -163,7 +163,7 @@ You need to have a network or SSID where portal access is configured.
 <p>Mail <a href="mailto:developer@nexq.it">developer@nexq.it</a> for more info.</p>
 <p>Mail <a href="mailto:into@nexq.it">into@nexq.it</a> for custom implementation.</p>
 
-<a href=https://www.linkedin.com/company/nexq><img style="margin: 0 10;" width="35" src="https://github.com/user-attachments/assets/4ac6709e-d29d-4f68-83e0-4b819d645734"></a>
+<a href=https://www.linkedin.com/company/nexq><img style="margin: 0 10;" width="35" src="https://github.com/user-attachments/assets/02cf024a-cb9d-440b-8a9b-1683694decc0"></a>
 
 ## License
 <p>Copyright (c) 2025 NEXQ S.r.l.</p>
