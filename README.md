@@ -38,7 +38,7 @@ You need to have a network or SSID where portal access is configured.
 4. Click on "Create New"
 5. Compile an information like a photo and Click Save
 
-<img width="600" alt="Fortigate Create Profile" src="[https://github.com/user-attachments/assets/74ec709a-2e6c-4fcb-a63e-905951d3ab5a](https://github.com/user-attachments/assets/07d1a149-8c07-4fba-acba-2815164b3c03)" />
+<img width="600" alt="Fortigate Create Profile" src="https://github.com/user-attachments/assets/07d1a149-8c07-4fba-acba-2815164b3c03" />
 
 6. Go to "System" --> "Administrators" and click on "Create New" --> "REST API Admin" --> Compile a form and select the previously created profile
 
