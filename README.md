@@ -161,7 +161,7 @@ You need to have a network or SSID where portal access is configured.
 ## Feedback
 <p>Powered by <a href="http://www.nexq.it">NEXQ S.r.l.</a></p>
 <p>Mail <a href="mailto:developer@nexq.it">developer@nexq.it</a> for more info.</p>
-<p>Mail <a href="mailto:into@nexq.it">into@nexq.it</a> for custom implementation.</p>
+<p>Mail <a href="mailto:info@nexq.it">info@nexq.it</a> for custom implementation.</p>
 
 <a href=https://www.linkedin.com/company/nexq><img style="margin: 0 10;" width="35" src="https://github.com/user-attachments/assets/02cf024a-cb9d-440b-8a9b-1683694decc0"></a>
 
