@@ -159,7 +159,7 @@ You need to have a network or SSID where portal access is configured.
 <img width="600" alt="Voucher List" src="https://github.com/user-attachments/assets/36b1d1a3-af1c-476c-9c5e-8c9b3f8551c5" />
 
 ## Feedback
-<p>Powered by <a href="http://www.nexq.it">NEXQ S.r.l.</a></p>
+<p>Powered by <a href="https://www.nexq.it/en/">NEXQ S.r.l.</a></p>
 <p>Mail <a href="mailto:developer@nexq.it">developer@nexq.it</a> for more info.</p>
 <p>Mail <a href="mailto:info@nexq.it">info@nexq.it</a> for custom implementation.</p>
 
